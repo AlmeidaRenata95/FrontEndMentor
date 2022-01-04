@@ -7,37 +7,34 @@
   <title>Frontend Mentor | Stats preview card component</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 40%, 42%); }
   </style>
   <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-<div class="div-main">
-    <section class="div-main-section">
-      <h1>Get <span class="puerple-text">insights</span> that help your business grow.</h1>
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-        </p>
-    </section>
-<div class="div-ul">
-    <section class="list-ul">
-      <ul class="list-ul-section">
-        <li>10k+ companies</li>
-        <li>314 templates</li>
-        <li>12m+ queries</li>
-      </ul>
-    </section>
-</div>
-  <div class="div-img">
-    <section class="div-img-section">
-      <img src="images/image-header-desktop.jpg">
-    </section>
-  </div>
-  <section>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </section>
-  </div>
+    <div class="container">
+      <div class="container-left">
+        <h1 class="title">Get <span class="purple-text">insights</span> that help your business grow.</h1>
+        <p class="paragraph-main">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="container-list">
+          <div class="container-list_item">
+            <span class="item-title">10k+</span>
+            <span class="item-text">companies</span>
+          </div>
+          <div class="container-list_item">
+            <span class="item-title">314</span>
+            <span class="item-text">templates</span>
+          </div>
+          <div class="container-list_item">
+            <span class="item-title">12M+</span>
+            <span class="item-text">queries</span>
+          </div>
+        </div>
+      </div>
+      <div img class="container-right">
+        <div class="filter">
+        </div>
+      </div>
+    </div>
 </body>
 </html>
